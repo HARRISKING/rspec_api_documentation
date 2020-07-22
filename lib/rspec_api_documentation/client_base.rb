@@ -93,8 +93,8 @@ module RspecApiDocumentation
 #         formatter = RspecApiDocumentation.configuration.response_body_formatter
 #         return formatter.call(response_content_type, response_body)
 #       end
-       formatter = RspecApiDocumentation.configuration.response_body_formatter
-#      return formatter.call(response_content_type, response_body)
+      formatter = RspecApiDocumentation.configuration.response_body_formatter
+      return formatter.call(response_content_type, response_body)
     end
 
     def clean_out_uploaded_data(params, request_body)
